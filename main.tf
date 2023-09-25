@@ -130,6 +130,10 @@ resource "aws_instance" "hashicat" {
     Name = "${var.prefix}-hashicat-instance"
     Department = "app-dev-team"
     Billable = "true"
+    name = "sandeep"
+    user = "smadhiraju"
+    purpose = "demo"
+    test = "yes"
   }
 }
 
