@@ -130,7 +130,7 @@ resource "aws_instance" "hashicat" {
     Name = "${var.prefix}-hashicat-instance"
     User = "smadhiraju"
     Purpose = "demo"
-    #test = "yes"
+    test = "yes"
   }
 }
 
